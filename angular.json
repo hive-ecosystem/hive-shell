@@ -72,7 +72,8 @@
 							"extraWebpackConfig": "webpack.prod.config.js"
 						},
 						"development": {
-							"browserTarget": "hive-shell:build:development"
+							"browserTarget": "hive-shell:build:development",
+							"extraWebpackConfig": "webpack.config.js"
 						}
 					},
 					"defaultConfiguration": "development",
